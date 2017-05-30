@@ -1,0 +1,29 @@
+/* Màn hình điện thoại */
+@media (max-width: 767px){
+	*{}
+
+.menutop {padding: 0;}
+	
+.menutop {
+    height: 100%;
+}
+}
+
+/* Màn hình ipad */
+@media (min-width: 768px) and (max-width: 991px){
+	*{}
+
+.menutop {
+    height: 100%;
+}
+}
+
+/* Màn hình destop nho */
+@media (min-width: 992px) and (max-width: 1199px){
+	*{}
+}
+
+/* Màn hình full HD */
+@media (max-width: 1200px){
+	*{}
+}

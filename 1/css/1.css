@@ -1,1 +1,44 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+body{
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.currency span {
+    color: white;
+}
+
+span {
+    color: #b59677;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.textheader {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+a.oneiconsocial {
+    color: white;
+    width: 28px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+}
+
+.menutop {
+    background: #3e3e3e;
+    padding: 0 30px 0 30px;
+    height: 50px;
+    line-height: 50px;
+} 
