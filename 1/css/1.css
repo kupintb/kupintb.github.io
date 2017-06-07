@@ -1,5 +1,71 @@
 *{margin: 0; padding: 0;}
 
+.nenxam.hienra {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nenxam {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background: rgba(0 ,0 ,0, .8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all cubic-bezier(0.25, 0.1, 0, 1.03) 0.4s;
+}
+
+.list-group-item.active a {
+    color: brown;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background: none;
+    border: none;
+    color: brown;
+}
+
+.ttmenu {
+    background: black;
+    color: white;
+}
+
+.tdmenu {
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.tdmenu i.fa.fa-times {
+    left: auto;
+    right: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+
+ul.list-group {
+    text-align: left;
+}
+
+.menutrai {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background: white;
+    width: 320px;
+    overflow-y: auto;
+    transition: all .5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    left: 0;
+    transform: translateX(-400px);
+    height: 100%;
+}
+
+.menutrai.divao {
+    transform: translateX(0);
+}
+
 p {
     letter-spacing: 2px;
     line-height: 30px;
