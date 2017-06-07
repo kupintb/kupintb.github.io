@@ -1,10 +1,55 @@
 *{margin: 0; padding: 0;}
 
-body{
-	/* font-family: 'Roboto', sans-serif; */
-	/* font-family: 'Open Sans', sans-serif; */
-	font-family: 'Montserrat', sans-serif;
+.headertop a.iconmenuheade {
+    font-size: 37px;
+    padding-left: 20px;
+}
 
+.headertop .iconaction {
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 7px;
+    padding-right: 20px;
+}
+
+.headertop .iconaction a {
+    margin-left: 10px;
+}
+
+a {
+    color: #000;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+a.oneiconaction.iconcart span {
+    width: 20px;
+    height: 20px;
+    background: black;
+    display: inline-block;
+    font-size: 9px;
+    line-height: 20px;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    bottom: 13px;
+    text-align: center;
+}
+
+.headertop {
+    padding: 15px 0;
+}
+
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .currency span {
