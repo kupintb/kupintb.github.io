@@ -1,5 +1,13 @@
 *{margin: 0; padding: 0;}
 
+.container-fluid {
+    padding: 0;
+}
+
+img.d-block.img-fluid {
+    width: 100%;
+}
+
 .headertop a.iconmenuheade {
     font-size: 37px;
     padding-left: 20px;
