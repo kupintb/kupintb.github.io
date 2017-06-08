@@ -1,5 +1,150 @@
 *{margin: 0; padding: 0;}
 
+.danhgiasp {
+    color: #f1c40f;
+}
+
+span ins {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.tt1spchuan a h4 {
+    color: #4d5959;
+    font-weight: 500;
+}
+
+.anhspchuan {
+    position: relative;
+}
+
+.anhspchuan:hover:before {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    top: 0;
+}
+
+.anhspchuan:before {content: '';position: absolute;top: 50%;left: 0;width: 100%;background: rgba(255, 255, 255, 0.46);transition: all 0.5s;opacity: 0;visibility: hidden;height: 0;z-index: 1;}
+
+.anhspchuan:hover .nutspchuan {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.nutspchuan {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+    transform: scale(0);
+    z-index: 2;
+}
+
+.nutspchuan a:hover span {
+    opacity: 0.9;
+    bottom: 50px;
+}
+
+.nutspchuan span:after {
+    bottom: -14px;
+    margin-left: -10px;
+    border-top: 10px solid #fff;
+}
+
+.nutspchuan span:before, .nutspchuan span:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -9px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(0,0,0,0.1);
+}
+
+.nutspchuan span {
+    width: 100px;
+    height: auto;
+    line-height: 20px;
+    padding: 10px;
+    left: 50%;
+    margin-left: -64px;
+    font-family: 'Alegreya SC', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 4px solid #719DAB;
+    background: rgba(0, 0, 0, 0.3);
+    text-indent: 0px;
+    border-radius: 5px;
+    position: absolute;
+    pointer-events: none;
+    bottom: 100px;
+    opacity: 0;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: capitalize;
+    z-index: 3;
+}
+
+.nutspchuan a {
+    font-size: 14px;
+    border: 1px solid #b59677;
+    color: #b59677;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+a.wishlist span {
+    left: 73%;
+}
+
+a.quickview span {
+    left: 53%;
+}
+
+.nutspchuan a:hover {
+    color: white;
+    background: #b59677;
+    border: 1px solid #b59677;
+}
+
+a.addtocart span {
+    left: 33%;
+}
+
+.motspchuan {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.new-sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    z-index: 2;
+}
+
+.khoisp {
+    margin-top: 180px;
+}
+
 .motspnb {
     overflow: hidden;
 }
@@ -39,6 +184,7 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all ease .3s;
+    margin-top: 40px;
 }
 
 .baspnb a:first-child:hover img {
@@ -186,6 +332,31 @@ a {
     transition: all 0.3s;
 }
 
+.anhspchuan:hover .anhspchuan2 img {
+    transform: rotateY(0deg);
+    opacity: 1;
+    visibility: visible;
+}
+
+.anhspchuan2 img {
+    transition: all 0.4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.anhspchuan1 img {
+    transition: all 0.5s;
+    transform: rotateY(0deg);
+}
+
+.anhspchuan:hover .anhspchuan1 img {
+    transform: rotateY(180deg);
+}
+
 .carousel-control.left, .carousel-control.right {
     width: 40px;
     height: 40px;
@@ -250,6 +421,24 @@ span {
     letter-spacing: 0.5px;
     font-weight: 400;
     font-size: 14px;
+}
+
+span.new, span.slae {
+    margin-top: 15px;
+    padding: 3px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+span.slae {
+    background: #f68e56;
+    margin-right: 15px;
+}
+
+span.new {
+    background: #4eb0be;
+    margin-left: 15px;
 }
 
 .carousel-control .icon-next, .carousel-control .icon-prev {

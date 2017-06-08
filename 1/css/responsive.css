@@ -1,6 +1,10 @@
-/* Màn hình điện thoại */
+/* MÃ n hÃ¬nh Ä‘iá»‡n thoáº¡i */
 @media (max-width: 767px){
     *{}
+
+.td {
+    margin-top: 20px;
+}
 
 .slideheadertop .carousel-caption.d-none.d-md-block {
     display: none;
@@ -39,7 +43,7 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* Màn hình ipad */
+/* MÃ n hÃ¬nh ipad */
 @media (min-width: 768px) and (max-width: 991px){
     *{}
 
@@ -48,12 +52,12 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* Màn hình destop nho */
+/* MÃ n hÃ¬nh destop nho */
 @media (min-width: 992px) and (max-width: 1199px){
     *{}
 }
 
-/* Màn hình full HD */
+/* MÃ n hÃ¬nh full HD */
 @media (max-width: 1200px){
     *{}
 }
