@@ -251,10 +251,14 @@ ul.list-group {
     left: 0;
     transform: translateX(-400px);
     height: 100%;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .menutrai.divao {
     transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
 }
 
 p {
