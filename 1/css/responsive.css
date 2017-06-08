@@ -2,6 +2,10 @@
 @media (max-width: 767px){
     *{}
 
+.slideheadertop .carousel-caption.d-none.d-md-block {
+    display: none;
+}
+
 span.icon-prev {
     font-size: 25px;
     margin-top: -11px!important;

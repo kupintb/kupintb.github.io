@@ -1,5 +1,50 @@
 *{margin: 0; padding: 0;}
 
+.motspnb {
+    overflow: hidden;
+}
+
+.td {
+    font-size: 16px;
+    margin-top: 36px;
+    color: #b59677;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.6s;
+    transform: rotateX(360deg);
+}
+
+.td:hover {
+    color: #e74c3c;
+    transform: rotate(0deg);
+}
+
+.tdnho {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.baspnb {
+    margin-top: 100px;
+}
+
+.baspnb img {
+    transform: scale(1);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all ease .3s;
+}
+
+.baspnb a:first-child:hover img {
+    transform: scale(1.1);
+}
+
 .nenxam.hienra {
     opacity: 1;
     visibility: visible;
@@ -189,6 +234,7 @@ a.oneiconaction.iconcart span {
 }
 
 body{
+    /* font-family: 'Roboto Mono', monospace; */
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Montserrat', sans-serif;
