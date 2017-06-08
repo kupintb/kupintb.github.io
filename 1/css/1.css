@@ -1,5 +1,45 @@
 *{margin: 0; padding: 0;}
 
+.nutshopnow {
+    margin-top: 36px;
+}
+
+.nutshopnow a {
+    background: #B69879;
+    color: white;
+    padding: 15px 50px;
+}
+
+.ndqc {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background: rgba(240, 237, 235, 0.57);
+    width: 40%;
+    height: auto;
+    padding: 50px;
+}
+
+.ndqc span {
+    font-size: 22px!important;
+    margin-left: 10px;
+}
+
+.ndkhoiqc {
+    position: relative;
+    overflow: hidden;
+}
+
+.ndkhoiqc:hover:before {
+    transform: scale(1.2);
+}
+
+.ndkhoiqc:before {content: '';position: absolute;top: 20px;left: 20px;right: 20px;bottom: 20px;border: 1px solid #ffffff;box-shadow: 0 0 10px 1px #ffffff;transition: all 0.4s;transform: scale(1);}
+
+div#slideheadertop {
+    overflow: hidden;
+}
+
 .danhgiasp {
     color: #f1c40f;
 }
@@ -426,6 +466,8 @@ span {
     font-weight: 400;
     font-size: 14px;
 }
+
+span {}
 
 span.new, span.slae {
     margin-top: 15px;
