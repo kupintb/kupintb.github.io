@@ -1,0 +1,846 @@
+*{margin: 0; padding: 0px;}
+
+.giaohang h3 label {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+input#place_order {
+    background: black;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    padding: 16px;
+}
+
+.payment-box {
+    padding-left: 27px;
+    padding-bottom: 26px;
+}
+
+#payment ul li label {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#order_review table tfoot tr th, #order_review table tfoot tr td {
+    padding: 20px;
+    border: none;
+}
+
+#order_review table tfoot tr.shipping td, #order_review table tfoot tr.order-total td {
+    color: black;
+    font-weight: bold;
+}
+
+#order_review table tfoot tr.sub-total th, #order_review table tfoot tr.sub-total td {
+    padding-top: 40px;
+}
+
+#order_review table tr.cart-item td {
+    padding: 20px;
+    border: none;
+}
+
+div#payment {
+    background: white;
+    padding-top: 45px;
+    margin-top: 40px;
+}
+
+div#payment ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+div#order_review {
+    background: #f6f6f6;
+    padding: 25px;
+}
+
+.checkout textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.checkout h2 {
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 00;
+}
+
+.form-row label.checkbox {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.checkout input.input-checkbox {
+    display: inline-block;
+    float: left;
+    margin-top: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+p.form-row {
+    margin: 0;
+}
+
+input.input-text {
+    width: 100%;
+    font-size: 14px;
+    color: #a1a1a1;
+    padding: 11px 19px;
+}
+
+.form-row label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    line-height: 45px;
+    margin: 0;
+}
+
+p.form-row.form-row-last {
+    width: 47%;
+    float: right;
+}
+
+p.form-row.form-row-first {
+    width: 47%;
+    float: left;
+}
+
+.abntshop {
+    position: relative;
+    margin: 20px 0;
+}
+
+.abntshop a:hover:before {
+    left: -4px;
+    right: -4px;
+    top: -4px;
+    bottom: -4px;
+}
+
+.abntshop a:before {
+    border: 4px solid rgba(255, 248, 248, 0.43);
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    pointer-events: none;
+    z-index: 3;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+}
+
+.actions {
+    margin-top: 40px;
+}
+
+ul.shipping-method {
+    list-style: none;
+    margin: 0;
+}
+
+ul.shipping-method li label {
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+tr.order-total th {
+    font-size: 18px!important;
+    font-weight: 700!important;
+}
+
+.cart-total .shop-table th {
+    font-size: 15px;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #333;
+    font-weight: 700;
+}
+
+.cart-total .shop-table td {
+    color: #777;
+    font-weight: 700;
+}
+
+.cart-total .container .col-sm-5 {
+    padding: 0;
+}
+
+.actions .update-cart, .actions .nutre {
+    margin-top: 0;
+}
+
+.couponcode {
+    padding: 10px 20px;
+    position: relative;
+    right: -4px;
+}
+
+.cpc {
+    float: right;
+}
+
+.update-cart, .apply-coupon, .checkout-button {
+    background: black;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+.apply-coupon, .checkout-button {
+    padding: 10px 20px;
+}
+
+a.checkout-button i {
+    transition: all 0.4s;
+    padding-;: 1
+    padding-left: 1;
+    display: inline-block;
+    padding-left: 10px;
+    opacity: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a.checkout-button:hover {
+    color: white;
+}
+
+a.checkout-button:hover i {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+a.checkout-button {display: block;}
+
+.giohangchitiet h2 {
+    margin-top: 55px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+table.shop-table {
+    border: 1px solid #ebebeb;
+    margin: 0;
+}
+
+#order_review table.table.table-hover.shop-table {
+    background: white;
+    border: none;
+}
+
+tr.cart-intem td {
+    vertical-align: middle!important;
+    text-align: center;
+    border: 1px solid #ebebeb;
+}
+
+td.product-remove i {
+    cursor: pointer;
+}
+
+td.product-thumbnail img {
+    width: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #ebebeb;
+    display: inline-block;
+}
+
+td.product-quantity .quantity {
+    width: 100%;
+}
+
+.shop-table thead {
+    border: 1px solid #ebebeb;
+}
+
+.shop-table thead th {
+    background: #f6f6f6;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 23px!important;
+    border: 1px solid #ebebeb;
+}
+
+#order_review table thead th {
+    background: none;
+    text-align: left;
+    width: 70%;
+}
+
+.trangnews .mottinchuan {
+    margin: 100px 0;
+}
+
+.trangnews .mottinchuan:last-child {
+    margin: 0;
+}
+
+.trangnews .mottinchuan:first-child {
+    margin: 0;
+}
+
+a.mottinnho {
+    display: block;
+    padding: 10px 15px;
+    color: #777;
+    font-size: 13px;
+}
+
+a.mottinnho i {
+    font-size: 13px;
+    FONT-WEIGHT: 600;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #222;
+}
+
+a.mottinnho b {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 13px;
+}
+
+.trangshopsingle footer, .trangshop footer, .trangnews footer {
+    position: static;
+}
+
+.trangnews span.so, .trangshop span.so {
+    float: right;
+}
+
+h2.widget-title {background: #222;color: white;font-size: 14px;padding: 16px 0;text-transform: uppercase;margin: 0;}
+
+.trangnews .widget, .trangshop .widget {
+    margin-top: 40px;
+    /* border: 1px solid #ededed; */
+}
+
+.trangnews .widget ul, .trangshop .widget ul {
+    list-style: none;
+    margin: 0;
+}
+
+.trangnews .widget ul li a, .trangshop .widget ul li a {
+    font-size: 14px;
+    color: #777;
+    padding: 13px 20px;
+    display: block;
+    border: 1px solid #ededed;
+    text-align: left;
+    line-height: 22px;
+    transition: all 0.3s;
+    position: relative;
+    padding-left: 25px;
+}
+
+.trangnews .widget ul li a:hover, .trangshop .widget ul li a:hover {
+    color: #222;
+    padding-left: 30px;
+}
+
+.trangnews .widget ul li a:hover:before {
+    border-color: #222;
+}
+
+.trangnews .widget ul li a:before {
+    content: '';
+    height: 8px;
+    width: 8px;
+    border: 1px solid gray;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transition: all 0.3s;
+}
+
+.trangnews .widget ul li:last-child a {
+    /* border: none; */
+}
+
+.trangnews form.search-form {
+    position: relative;
+}
+
+.trangnews input.search-submit {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    font-size: 13px;
+    width: 14%;
+    border: none;
+    text-indent: -9999px;
+}
+
+input.search-field {
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    background: url(../images/iconsearch.png) no-repeat 94% center;
+}
+
+.trangnews .tintuc {
+    margin-top: 50px; */
+}
+
+.trangnews .anhbaiviet, .trangnews .ttbaiviet {
+    width: 100%;
+    float: none;
+}
+
+.trangnews .ttbaiviet {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.tttapspchitiet .ndtapspct {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    transform: translateY(200px);
+    transition: all 0.4s ease-in-out;
+    color: #777;
+    text-align: left;
+    line-height: 26px;
+}
+
+.tttapspchitiet .ndtapspct.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.tapspchitiet {
+    margin-top: 40px;
+}
+
+.tapspchitiet ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul.tttapspchitiet {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+ul.tapttspchitiet li .btn-default {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+    color: #757575;
+    cursor: pointer;
+    margin-bottom: 25px;
+    display: inline-block;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+ul.tapttspchitiet li .btn-default:hover, ul.tapttspchitiet li .btn-default.active {
+    border-bottom: 2px solid #202020;
+    color: black;
+    background: transparent;
+}
+
+.tapspchitiet ul li {
+    display: inline;
+}
+
+.trangshop .ttlh {
+    padding: 0;
+}
+
+input.minus, input.plus {
+    width: 37px;
+    height: 38px;
+    background: white;
+    border: 1px solid #d0d0d0;
+    font-weight: 900;
+    transition: all 0.2s;
+}
+
+input.minus:hover, input.plus:hover {
+    background: rgba(128, 128, 128, 0.26);
+}
+
+input.qty::-webkit-inner-spin-button, input.qty::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    opacity: 0;
+}
+
+input.qty {
+    width: 48px;
+    height: 38px;
+    border: none;
+    background: #444;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+button.button.btn.btn-primary {
+    margin-top: 30px;
+    background: #222;
+    border-radius: 0px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.2s;
+}
+
+.quantity button.button.btn.btn-primary:hover {
+    background: black;
+}
+
+span.label {
+    color: #222;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.variation img {
+    width: 150px;
+}
+
+.in-stock {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: black;
+*{
+    margin: 0;
+    padding: 0px;}    .description {
+    font-size: 15px;
+    color: #777;
+    line-height: 26px;  }
+    p.price {      font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;  }    .trangshop .danhgia {
+    margin-bottom: 10px;  }
+    h1.product-title {      font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222;
+    font-family: 'Oswald', sans-serif;  }    .thumbnails
+    a {      width: 100%;
+    display: block;
+    margin-bottom: 10px;  }    .spchitiet {
+    margin-top: 100px;
+    margin-bottom: 50px;  }
+    nav.woocommerce-pagination {      margin: 80px 0;  }    .page-numbers {
+    color: #222;
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    transition: all 0.2s;
+    border-radius: 50%;  }
+    a:hover {      text-decoration: none;  }
+    span.page-numbers.current, .page-numbers:hover {      border-radius: 50%;
+    background: #222;
+    color: white;
+    transform: translateY(-5px);  }
+    nav.woocommerce-pagination ul li {      display: inline;  }
+    nav.woocommerce-pagination ul {      list-style: none;
+    display: inline;  }
+    form.woocommerce-ordering select.orderby {      padding: 5px 15px;
+    color: #222;
+    background: url(../images/icondown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+    cursor: pointer;  }    .trangshop
+    span.show {      font-size: 14px;
+    display: block;
+    line-height: 16px;
+    padding: 10px;  }    .tdlistsp .nutgrid, .tdlistsp .nutlist {
+    border-color: #cecece;
+    border-radius: 0px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222;
+    margin-right: 5px;
+    transition: all 0.2s;  }    .tdlistsp .nutgrid:hover, .tdlistsp .nutlist:hover {
+    background: lightblue;
+    border-color: lightblue;  }    .tdlistsp
+    h3 {      padding: 95px;
+    color: #222;
+    font-size: 25px;
+    text-transform: capitalize;  }    .trangshop
+    nav.breadcrumb {      background: none;
+    color: white;  }    .trangshop
+    nav.breadcrumb a {      text-transform: uppercase;
+    color: white;  }    .trangshop
+    nav.breadcrumb a:hover {      text-decoration: none;  }    .trangshop .ndheadershop {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;  }    .trangshop .ndheadershop
+    h2 {      text-transform: uppercase;
+    color: white;  }    .trangshop .ndtrangshop {
+    background-image: url(../images/bg2.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: table;
+    position: relative;  }    .trangshop .ndtrangshop:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.4);  }    .trangshop
+    footer {      position: static;  }    .trangshop .menutop {
+    position: static;  }
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.description {
+    font-size: 15px;
+    color: #777;
+    line-height: 26px;
+}
+
+p.price {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.trangshop .danhgia {
+    margin-bottom: 10px;
+}
+
+h1.product-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #222;
+    font-family: 'Oswald', sans-serif;
+}
+
+.thumbnails a {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.thumbnails a img {
+    border: 4px solid white;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);
+    transition: all 0.4s;
+}
+
+.thumbnails a img:hover {
+    box-shadow: 0 0 1px 1px black;
+}
+
+.spchitiet {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+nav.woocommerce-pagination {
+    margin: 80px 0;
+}
+
+.page-numbers {
+    color: #222;
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    transition: all 0.2s;
+    border-radius: 50%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+span.page-numbers.current, .page-numbers:hover {
+    border-radius: 50%;
+    background: #222;
+    color: white;
+    transform: translateY(-5px);
+}
+
+nav.woocommerce-pagination ul li {
+    display: inline;
+}
+
+nav.woocommerce-pagination ul {
+    list-style: none;
+    display: inline;
+}
+
+form.woocommerce-ordering select.orderby {
+    padding: 5px 15px;
+    color: #222;
+    background: url(../images/icondown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.trangshop span.show {
+    font-size: 14px;
+    display: block;
+    line-height: 16px;
+    padding: 10px;
+}
+
+.tdlistsp .nutgrid, .tdlistsp .nutlist {
+    border-color: #cecece;
+    border-radius: 0px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222;
+    margin-right: 5px;
+    transition: all 0.2s;
+}
+
+.tdlistsp .nutgrid:hover, .tdlistsp .nutlist:hover {
+    background: lightblue;
+    border-color: lightblue;
+}
+
+.tdlistsp h3 {
+    padding: 25px;
+    color: #222;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.trangshop nav.breadcrumb {
+    background: none;
+    color: white;
+}
+
+.trangshop nav.breadcrumb a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.trangshop nav.breadcrumb a:hover {
+    text-decoration: none;
+}
+
+.trangshop .ndheadershop {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+}
+
+.trangshop .ndheadershop h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.trangshop .ndtrangshop {
+    background: url(../images/bg3.jpg) top;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: table;
+    position: relative;
+}
+
+.trangnews .ndtrangshop {
+    background: url(../images/bg2.jpeg) center;
+}
+
+.trangcart .ndtrangshop {
+    background: url(../images/bg4.jpeg) right 63%;
+}
+
+.trangshop .ndtrangshop:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.trangshop footer {
+    position: static;
+}
+
+.trangshop footer {
+    margin-top: 0px;
+}
+
+.trangnews footer {
+    margin-top: 100px;
+}
+
+.trangshop .menutop {
+    position: static;
+}
+
+@media (max-width: 767px){
+    *{}
+
+.summary.col-sm-6.text-left {
+    text-align: center;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    *{}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    *{}
+}
+@media (max-width: 1200px){
+    *{}
+}
