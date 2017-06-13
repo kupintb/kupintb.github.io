@@ -1,0 +1,83 @@
+/* MÃƒÂ n hÃƒÂ¬nh Ã„â€˜iÃ¡Â»â€¡n thoÃ¡ÂºÂ¡i */
+@media (max-width: 767px){
+    *{}
+
+.ndqc {
+    display: none;
+}
+
+.ndqc {}
+
+.td {
+    margin-top: 20px;
+}
+
+.slideheadertop .carousel-caption.d-none.d-md-block {
+    display: none;
+}
+
+span.icon-prev {
+    font-size: 25px;
+    margin-top: -11px!important;
+}
+
+i.fa.fa-angle-right {
+    font-size: 25px;
+    margin-top: -2px;
+}
+
+.headertop .iconaction {
+    margin: 0;
+}
+
+.headertop .iconaction a {
+    font-size: 25px;
+}
+
+.headertop a.iconmenuheade {
+    font-size: 31px;
+}
+
+a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist {
+    display: none;
+}
+
+.menutop {padding: 0;}
+    
+.menutop {
+    height: 100%;
+}
+}
+
+/* MÃƒÂ n hÃƒÂ¬nh ipad */
+@media (min-width: 768px) and (max-width: 991px){
+    *{}
+
+.ndqc {
+    top: 17%;
+    left: 14%;
+    width: 70%;
+    padding: 17px;
+}
+
+.menutop {
+    height: 100%;
+}
+}
+
+/* MÃƒÂ n hÃƒÂ¬nh destop nho */
+@media (min-width: 992px) and (max-width: 1199px){
+    *{}
+
+.ndqc {
+    top: 23%;
+    width: 60%;
+    left: 23%;
+    padding: 30px;
+}
+}
+
+/* MÃƒÂ n hÃƒÂ¬nh full HD */
+@media (max-width: 1200px){
+    *{}
+}
