@@ -1,4 +1,28 @@
 ﻿ $(function(){
+
+ 	/*Xử lý code sản phẩm khuyến mại*/
+ 	
+	  var owl = $('.owl-carousel');
+		owl.owlCarousel({
+		    loop:true,
+		    margin:10,
+		    dots:false,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    responsiveClass:true,
+				    responsive:{
+				        0:{
+				            items:3,
+				        },
+				        600:{
+				            items:4,
+				        },
+				        1000:{
+				            items:5,
+				        } 
+				    }
+		})
+
  	/*js cho phần nút menu bar*/
  	$('.iconmenuheade').click(function(event) {
  		$('.menutrai').addClass('divao');
