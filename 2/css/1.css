@@ -1,27 +1,31 @@
 *{margin: 0; padding: 0;}
 
+li.list-group-item.dropdown ul li {
+    border: none;
+}
+
 .list-group-item ul {
-    padding-left: 25%;
     opacity: 0;
     visibility: hidden;
     height: 0;
     transition: all 0.4s;
     /* display: none; */
+    overflow: hidden;
 }
 
 .list-group-item:hover ul.dropdown1 {
     opacity: 1;
     visibility: visible;
-    height: 500px;
+    height: 520px;
     transition: all 0.4s;
 }
 
-.list-group-item ul li ul {padding-left: 25%;opacity: 0;visibility: hidden;height: 0;transition: all 0.4s;/* display: none; */}
+.list-group-item ul li ul {margin-left: 10%;opacity: 0;visibility: hidden;height: 0;transition: all 0.4s;/* display: none; */}
 
 .list-group-item ul li:hover ul {
     opacity: 1;
     visibility: visible;
-    height: 200px;
+    height: 100px;
     /* display: block; */
 }
 
@@ -303,6 +307,7 @@ a.addtocart span {
 
 ul.list-group {
     text-align: left;
+    font-size: 14px;
 }
 
 .menutrai {
