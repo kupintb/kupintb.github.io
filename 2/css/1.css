@@ -1,5 +1,15 @@
 *{margin: 0; padding: 0;}
 
+.list-group-item {
+    transform: translateX(0);
+    transition: all 0.4s;
+    border: none;
+}
+
+.list-group-item:hover {
+    transform: translateX(10px);
+}
+
 .oneservise img {
     width: 100px;
 }
@@ -42,9 +52,11 @@ li.list-group-item.dropdown ul li {
 }
 
 .nutshopnow a {
-    background: #B69879;
+    background: #6C7A89;
     color: white;
     padding: 15px 50px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .ndqc {
