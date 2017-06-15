@@ -1,5 +1,15 @@
 *{margin: 0; padding: 0;}
 
+.khoiqc {
+    background: url(../images/bg-1.jpg) center;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
 .list-group-item {
     transform: translateX(0);
     transition: all 0.4s;
@@ -61,7 +71,7 @@ li.list-group-item.dropdown ul li {
 
 .ndqc {
     position: absolute;
-    top: 30%;
+    top: 11%;
     left: 30%;
     background: rgba(240, 237, 235, 0.57);
     width: 40%;
@@ -74,13 +84,9 @@ li.list-group-item.dropdown ul li {
     margin-left: 10px;
 }
 
-.ndkhoiqc {
-    position: relative;
-    overflow: hidden;
-}
 
 .ndkhoiqc:hover:before {
-    transform: scale(1.2);
+    transform: scale(0.95);
 }
 
 .ndkhoiqc:before {content: '';position: absolute;top: 20px;left: 20px;right: 20px;bottom: 20px;border: 1px solid #ffffff;box-shadow: 0 0 10px 1px #ffffff;transition: all 0.4s;transform: scale(1);}
