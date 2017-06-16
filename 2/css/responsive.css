@@ -1,6 +1,30 @@
-/* MÃƒÂ n hÃƒÂ¬nh Ã„â€˜iÃ¡Â»â€¡n thoÃ¡ÂºÂ¡i */
+/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n thoÃƒÂ¡Ã‚ÂºÃ‚Â¡i */
 @media (max-width: 767px){
     *{}
+
+.nvtuvan {
+    margin-top: 30px;
+}
+
+.khoiqc {
+    margin-top: 30px;
+}
+
+.tdservices {
+    margin-bottom: 10px;
+}
+
+.tdnho {
+    font-size: 16px;
+}
+
+.khoidvkm {
+    margin-top: 50px;
+}
+
+div#dichvu {
+    margin-top: 30px;
+}
 
 .ndqc {
     display: none;
@@ -10,6 +34,7 @@
 
 .td {
     margin-top: 20px;
+    font-size: 12px;
 }
 
 .slideheadertop .carousel-caption.d-none.d-md-block {
@@ -49,7 +74,7 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* MÃƒÂ n hÃƒÂ¬nh ipad */
+/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh ipad */
 @media (min-width: 768px) and (max-width: 991px){
     *{}
 
@@ -65,7 +90,7 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* MÃƒÂ n hÃƒÂ¬nh destop nho */
+/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh destop nho */
 @media (min-width: 992px) and (max-width: 1199px){
     *{}
 
@@ -77,7 +102,7 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* MÃƒÂ n hÃƒÂ¬nh full HD */
+/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh full HD */
 @media (max-width: 1200px){
     *{}
 }
