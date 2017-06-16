@@ -22,6 +22,28 @@
 				        } 
 				    }
 		})
+		
+			$('.slidebottom.owl-carousel.owl-theme').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    dots:false,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    responsiveClass:true,
+				    responsive:{
+				        0:{
+				            items:3,
+				        },
+				        600:{
+				            items:4,
+				        },
+				        1000:{
+				            items:6,
+				        } 
+				    }
+		})
+
+
 
  	/*js cho phần nút menu bar*/
  	$('.iconmenuheade').click(function(event) {
@@ -45,6 +67,26 @@
  			$('.nenxam').removeClass('hienra');
           }       
       })
+
+ 	/*nút back*/
+ 	$(window).scroll(function(){
+		vitrihientai = $('body').scrollTop();
+		
+		if(vitrihientai >= $('.slideheadertop').offset().top){
+			$('.headertop').addClass('tienhoa');
+			$('.nutback').addClass('hienranutback');
+		}
+		else if (vitrihientai < $('.slideheadertop').offset().top) {
+			$('.headertop').removeClass('tienhoa');
+			$('.nutback').removeClass('hienranutback');
+		};
+	})
+
+	$('.nutback').on('click', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+		$('body').animate({ scrollTop: 0},1000);
+	});
 
 })  
  
