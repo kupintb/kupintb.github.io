@@ -1,5 +1,6 @@
 ﻿ $(function(){
-
+ 	/*Hiệu ứng Wow*/
+ 	new WOW().init();
  	/*Xử lý code sản phẩm khuyến mại*/
  	
 	  var owl = $('.owl-carousel');

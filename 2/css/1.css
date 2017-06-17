@@ -757,6 +757,7 @@ a.oneiconaction.iconcart span {
     transition: all 0.4s;
     height: 85px;
     background: white;
+    border-top: 1px solid transparent;
 }
 
 body{
@@ -771,10 +772,11 @@ body{
     position: fixed;
     top: 0px;
     width: 100%;
-    z-index: 9999;
+    z-index: 99;
     background: white;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .12);
     height: 70px;
+    border-top: 1px solid gray;
 }
 
 .currency span {
