@@ -1,5 +1,22 @@
 *{margin: 0; padding: 0;}
 
+.about-page .bannerab .nutshopnow a {
+    background: #eceeef;
+    color: gray;
+}
+
+.about-page .bannerab .nutshopnow {
+    margin-top: 9px;
+}
+
+.bannerab {
+    background: #34495e;
+    padding: 35px 0;
+    color: white;
+}
+
+.bannerab h3.tdnho {margin-bottom: 0px;margin-top: 11px;}
+
 .number {
     margin-bottom: 60px;
 }
