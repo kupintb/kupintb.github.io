@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+
+.about-page .ndheaderabout h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.about-page .breadcrumb, .about-page .breadcrumb
+ a {
+    color: white;
+    background: none;
+}
+
+.about-page .ndheaderabout {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+.about-page .ndtrangabout:after {content: '';position: absolute;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.35);top: 0;left: 0;z-index: 1;display: block;}
+
+.about-page .ndtrangabout {
+    background: url(../images/13.jpeg) center 77%;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: table;
+    position: relative;
+}
