@@ -1,6 +1,10 @@
-/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh Ãƒâ€žÃ¢â‚¬ËœiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n thoÃƒÂ¡Ã‚ÂºÃ‚Â¡i */
+/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“iÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡n thoÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i */
 @media (max-width: 767px){
     *{}
+
+.anhtqceo {
+    margin-top: 30px;
+}
 
 .tgkm hr {
     margin: 0;
@@ -103,7 +107,7 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh ipad */
+/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh ipad */
 @media (min-width: 768px) and (max-width: 991px){
     *{}
 
@@ -146,7 +150,7 @@ span.baicon {
 }
 }
 
-/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh destop nho */
+/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh destop nho */
 @media (min-width: 992px) and (max-width: 1199px){
     *{}
 
@@ -172,7 +176,7 @@ span.gmail {
 }
 }
 
-/* MÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh full HD */
+/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh full HD */
 @media (max-width: 1200px){
     *{}
 }
