@@ -1,8 +1,14 @@
 ﻿ $(function(){
  	/*Hiệu ứng Wow*/
  	new WOW().init();
+
+ 	/*Xử lý phần khối đếm số*/
+ 	$('.demso').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
  	/*Xử lý code sản phẩm khuyến mại*/
- 	
 	  var owl = $('.owl-carousel');
 		owl.owlCarousel({
 		    loop:true,
@@ -73,11 +79,11 @@
  	$(window).scroll(function(){
 		vitrihientai = $('body').scrollTop();
 		
-		if(vitrihientai >= $('.slideheadertop').offset().top){
+		if(vitrihientai >= 50){
 			$('.headertop').addClass('tienhoa');
 			$('.nutback').addClass('hienranutback');
 		}
-		else if (vitrihientai < $('.slideheadertop').offset().top) {
+		else if (vitrihientai < 50) {
 			$('.headertop').removeClass('tienhoa');
 			$('.nutback').removeClass('hienranutback');
 		};

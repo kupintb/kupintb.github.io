@@ -1,5 +1,83 @@
 *{margin: 0; padding: 0;}
 
+.number {
+    margin-top: 29px;
+}
+
+.khoigtabout .anhceo img {
+    border-radius: 50%;
+}
+
+.khoigtabout h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #7d7d7d;
+    margin-bottom: 20px;
+}
+
+.khoigtabout p {
+    margin-bottom: 20px;
+}
+
+p.hvtceo {
+    margin: 0;
+    color: #636363;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.khoigtabout {
+    margin: 85px 0 70px 0;
+}
+
+.khoigtabout h3 {font-family: 'Open Sans', sans-serif;font-size: 30px;}
+
+.sodem span.plus {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.sodem span.demso {
+    font-weight: 700;
+    font-size: 36px;
+    color: #232323;
+    line-height: 48px;
+    position: relative;
+}
+
+.sodem {
+    position: relative;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #232323;
+    margin-bottom: 0px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.ndkhoiconso {
+    position: relative;
+}
+
+.about-page .khoiconso {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    padding: 30px 0;
+    border-bottom: 2px solid #232323;
+}
+
+.about-page .tenkhoiso {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #555;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
 .about-page .ndheaderabout h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
