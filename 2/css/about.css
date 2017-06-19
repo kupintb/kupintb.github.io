@@ -1,8 +1,79 @@
 *{margin: 0; padding: 0;}
 
+.khoint input.apply-coupon {
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.khoint input.couponcode {
+    width: 100%;
+}
+
+.khoint {
+    margin-bottom: 95px;
+    margin-top: 80px;
+}
+
+.mottvchuan:hover .ndmottv {
+    transform: translateY(0);
+}
+
+.mottvchuan:hover .anhtv {
+    border-bottom: 3px solid #48C7EC;
+}
+
+.about-page .iconsocial.iconmxh {
+    margin-top: 21px;
+}
+
+.about-page .ndmottv p.chucvu {
+    color: white!important;
+}
+
+h4.td.tenmottvc {
+    margin-top: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.about-page .khoithanhvien {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.ndmottv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(19, 29, 51, 0.85);
+    transition: all 0.4s;
+    transform: translateY(200px);
+}
+
+.about-page .anhtv {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid #354D71;
+    transition: all 0.3s;
+}
+
+.about-page .anhtv img {
+    height: 100%!important;
+    width: auto!important;
+    margin: auto;
+}
+
 .about-page .bannerab .nutshopnow a {
     background: #eceeef;
     color: gray;
+}
+
+.about-page .bannerab .nutshopnow a:hover {
+    background: gray;
+    color: white;
 }
 
 .about-page .bannerab .nutshopnow {

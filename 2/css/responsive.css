@@ -1,6 +1,75 @@
-/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“iÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡n thoÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i */
+/* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¡n thoÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡i */
 @media (max-width: 767px){
     *{}
+
+.sodem span.plus {
+    margin-left: 2px;
+    top: 0px;
+}
+
+.about-page .tenkhoiso {
+    font-size: 11px;
+}
+
+.sodem span.demso {
+    font-size: 20px;
+}
+
+footer h4 {
+    font-size: 13px;
+}
+
+.khoigtabout .container.jumbotron {
+    margin-bottom: 0px;
+}
+
+.khoint .cpc {
+    text-align: center;
+}
+
+.khoint input.apply-coupon {
+    font-size: 12px;
+    width: 100%;
+}
+
+.khoint input.couponcode {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.about-page .bannerab .nutshopnow {
+    text-align: center!important;
+    /* margin: auto; */
+}
+
+.about-page .bannerab .nutshopnow a {
+    padding: 10px 20px;
+}
+
+.bannerab {
+    padding: 25px 0px;
+}
+
+.tenceo span {
+    font-size: 12px;
+}
+
+.khoigtabout p {
+    font-size: 12px;
+}
+
+.khoigtabout h3 {
+    font-size: 25px;
+}
+
+.khoigtabout h4 {
+    font-size: 16px;
+}
+
+.khoigtabout {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
 .anhtqceo {
     margin-top: 30px;
@@ -49,6 +118,13 @@ span.baicon {
 
 .tdnho {
     font-size: 16px;
+}
+
+.bannerab h3.tdnho {
+    margin-bottom: 13px;
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .khoidvkm {
@@ -107,9 +183,46 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 }
 }
 
-/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh ipad */
+/* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh ipad */
 @media (min-width: 768px) and (max-width: 991px){
     *{}
+
+.khoint input.couponcode {
+    font-size: 12px;
+}
+
+.khoint p {
+    font-size: 12px;
+}
+
+.bannerab h3.tdnho {
+    font-size: 20px;
+}
+
+.number {
+    margin-bottom: 30px;
+}
+
+.khoigtabout .container.jumbotron {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.khoigtabout h3 {
+    font-size: 24px;
+}
+
+.khoigtabout h4 {font-size: 16px;}
+
+.khoigtabout {
+    margin: 10px 0 0 0;
+}
+
+.khoint input.apply-coupon {
+    width: 60%;
+    font-size: 12px;
+}
 
 .carousel-caption {transform: translateY(61px);padding: 10px 20px!important;}
 
@@ -150,9 +263,30 @@ span.baicon {
 }
 }
 
-/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh destop nho */
+/* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh destop nho */
 @media (min-width: 992px) and (max-width: 1199px){
     *{}
+
+.sodem span.plus {
+    margin-left: 5px;
+    top: -5px;
+}
+
+.sodem span.demso {
+    font-size: 26px;
+}
+
+.khoigtabout .col-xs-8 {
+    padding: 0;
+}
+
+.khoigtabout h4 {
+    font-size: 18px;
+}
+
+.khoigtabout {
+    margin-top: 0;
+}
 
 .carousel-caption {
     transform: translateY(51px);
@@ -176,7 +310,7 @@ span.gmail {
 }
 }
 
-/* MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh full HD */
+/* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh full HD */
 @media (max-width: 1200px){
     *{}
 }
