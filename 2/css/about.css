@@ -1,4 +1,135 @@
-*{margin: 0; padding: 0;}
+*{margin: 0;padding: 0;}
+
+.khoidichvu .vienanhdv {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-radius: 104px;
+    display: inline-block;
+    margin: 0 0 10px;
+    max-width: 100%;
+    padding: 20px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    transition: all 0.4s;
+}
+
+.khoidichvu .vienanhdv img {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.khoidichvu .vienanhdv img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.khoidichvu .tdservices {
+    margin-bottom: 20px;
+}
+
+.khoidichvu .services {
+    margin-top: 40px;
+}
+
+span.page-numbers.current, .page-numbers:hover {
+    border-radius: 50%;
+    background: #222;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.page-numbers {
+    color: #222;
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    transition: all 0.2s;
+    border-radius: 50%;
+}
+
+.khoidichvu .woocommerce-pagination {
+    margin: 80px 0;
+    width: 100%;
+}
+
+.khoidichvu .woocommerce-pagination ul {
+    list-style: none;
+    display: inline;
+}
+
+.khoidichvu .woocommerce-pagination ul li {
+    display: inline;
+}
+
+.abntdv a:before {
+    border: 4px solid rgba(255, 248, 248, 0.43);
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    pointer-events: none;
+    z-index: 3;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+}
+
+.abntdv a:hover:before {
+    left: -4px;
+    right: -4px;
+    top: -4px;
+    bottom: -4px;
+}
+
+.abntdv {
+    position: relative;
+    margin: 20px 0;
+}
+
+.khoidichvu .widget ul {
+    list-style: none;
+    margin: 0;
+}
+
+.khoidichvu .widget ul li a {
+    font-size: 14px;
+    color: #777;
+    padding: 13px 20px;
+    display: block;
+    border: 1px solid #ededed;
+    text-align: left;
+    line-height: 22px;
+    transition: all 0.3s;
+    position: relative;
+    padding-left: 25px;
+}
+
+.khoidichvu .widget ul li a:hover {
+    color: #222;
+    padding-left: 30px;
+}
+
+.khoidichvu .widget ul li a span {
+    float: right;
+}
+
+.khoidichvu h2 {
+    background: #222;
+    color: white;
+    font-size: 14px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.khoidichvu .widget {
+    margin-top: 40px;
+}
 
 .khoint input.apply-coupon {
     width: 40%;
