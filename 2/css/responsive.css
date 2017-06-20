@@ -120,6 +120,11 @@ span.baicon {
     font-size: 16px;
 }
 
+.khoidichvu .tdnho {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
 .bannerab h3.tdnho {
     margin-bottom: 13px;
     font-size: 13px;
@@ -186,6 +191,22 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 /* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh ipad */
 @media (min-width: 768px) and (max-width: 991px){
     *{}
+
+.khoidichvu .services p {
+    font-size: 14px;
+}
+
+.khoidichvu .td1service {
+    font-size: 16px;
+}
+
+.khoidichvu .col-sm-3 {
+    padding: 0;
+}
+
+.khoidichvu .widget ul li a {
+    padding: 10px 5px;
+}
 
 .khoint input.couponcode {
     font-size: 12px;
@@ -266,6 +287,10 @@ span.baicon {
 /* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh destop nho */
 @media (min-width: 992px) and (max-width: 1199px){
     *{}
+
+.khoidichvu .mottinnho span {
+    font-size: 12px;
+}
 
 .sodem span.plus {
     margin-left: 5px;

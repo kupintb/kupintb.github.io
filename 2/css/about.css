@@ -1,5 +1,97 @@
 *{margin: 0;padding: 0;}
 
+.khoitd h2.widget-title {font-size: 20px;text-align: left!important;padding-left: 23px;}
+
+tr.ndtd td a {
+    color: #105caa;
+}
+
+tr.ndtd td a:hover {
+    color: brown;
+}
+
+.khoitd {
+    margin: 100px 0 80px 0;
+}
+
+.khoitd h3.tdnho {text-align: left;}
+
+tr.ndtd td {
+    font-size: 14px;
+    padding: 20px 15px;
+    border-bottom: 1px solid #7d7d7d;
+    vertical-align: middle;
+}
+
+td.luong {
+    text-align: center;
+    width: 18%;
+}
+
+td.soluong {
+    text-align: center;
+}
+
+td.noilamviec {
+    text-align: center;
+}
+
+tr.tdtd {
+    background: gray;
+    color: white;
+}
+
+.tdtd th {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle!important;
+}
+
+.abntdv img {
+    width: 100%;
+}
+
+.khoidichvu a.mottinnho {
+    display: block;
+    padding: 10px 15px;
+    color: #777;
+    font-size: 13px;
+}
+
+.khoidichvu a.mottinnho b {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 12px;
+    color: #6c7a89;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.khoidichvu a.mottinnho .danhgia {
+    margin-bottom: 10px;
+}
+
+.khoidichvu a.mottinnho .danhgia i {
+    font-size: 13px;
+    FONT-WEIGHT: 600;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #f39c12;
+}
+
+.khoidichvu .nutshopnow a {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.khoidichvu .services p {
+    padding: 0 30px;
+    text-align: justify;
+}
+
 .khoidichvu .vienanhdv {
     background: #f2f2f2 none repeat scroll 0 0;
     border-radius: 104px;
@@ -49,17 +141,17 @@ span.page-numbers.current, .page-numbers:hover {
     border-radius: 50%;
 }
 
-.khoidichvu .woocommerce-pagination {
+.woocommerce-pagination {
     margin: 80px 0;
     width: 100%;
 }
 
-.khoidichvu .woocommerce-pagination ul {
+.woocommerce-pagination ul {
     list-style: none;
     display: inline;
 }
 
-.khoidichvu .woocommerce-pagination ul li {
+.woocommerce-pagination ul li {
     display: inline;
 }
 
@@ -91,12 +183,12 @@ span.page-numbers.current, .page-numbers:hover {
     margin: 20px 0;
 }
 
-.khoidichvu .widget ul {
+.widget ul {
     list-style: none;
     margin: 0;
 }
 
-.khoidichvu .widget ul li a {
+.widget ul li a {
     font-size: 14px;
     color: #777;
     padding: 13px 20px;
@@ -109,7 +201,11 @@ span.page-numbers.current, .page-numbers:hover {
     padding-left: 25px;
 }
 
-.khoidichvu .widget ul li a:hover {
+.khoitd .widget ul li a {
+    color: #105caa;
+}
+
+.widget ul li a:hover {
     color: #222;
     padding-left: 30px;
 }
@@ -125,6 +221,8 @@ span.page-numbers.current, .page-numbers:hover {
     padding: 16px 0;
     text-transform: uppercase;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .khoidichvu .widget {
