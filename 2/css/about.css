@@ -1,5 +1,101 @@
 *{margin: 0;padding: 0;}
 
+.khoidvct nav .dg-next {
+    background-position: top right;
+    margin-left: 10px;
+}
+
+.khoidvct nav {
+    width: 58px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -29px;
+}
+
+.khoidvct nav span {
+    text-indent: -9000px;
+    float: left;
+    cursor: pointer;
+    width: 24px;
+    height: 25px;
+    opacity: 0.8;
+    background: transparent url(../images/arrows.png) no-repeat top left;
+}
+
+.dg-wrapper {
+    width: 481px;
+    height: 316px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.dg-wrapper a {
+    width: 482px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent url(../images/browser.png) no-repeat top left;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.dg-wrapper a img {
+    display: block;
+    padding: 41px 0px 0px 1px;
+}
+
+.dg-container {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.ndchitiettin p {
+    color: #7d7d7d;
+}
+
+.tttop span.nguoidang {
+    color: brown!important;
+    font-weight: 500;
+}
+
+.tieudebaidang {
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.tttop {
+    text-transform: capitalize;
+}
+
+.tttop span {
+    color: gray;
+}
+
+.ttbaiviet {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.khoidvct {
+    margin-top: 40px;
+}
+
 .lienhe-page footer {
     margin-top: 0;
 }
@@ -41,6 +137,7 @@
     width: 100%;
     height: 172px;
     border-radius: 4px;
+    padding: 10px;
 }
 
 .form-group {
@@ -125,14 +222,14 @@ tr.tdtd {
     width: 100%;
 }
 
-.khoidichvu a.mottinnho {
+.khoidichvu a.mottinnho, .khoidvct a.mottinnho {
     display: block;
     padding: 10px 15px;
     color: #777;
     font-size: 13px;
 }
 
-.khoidichvu a.mottinnho b {
+.khoidichvu a.mottinnho b, .khoidvct a.mottinnho b {
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -142,11 +239,11 @@ tr.tdtd {
     font-family: 'Open Sans', sans-serif;
 }
 
-.khoidichvu a.mottinnho .danhgia {
+.khoidichvu a.mottinnho .danhgia, .khoidvct a.mottinnho .danhgia {
     margin-bottom: 10px;
 }
 
-.khoidichvu a.mottinnho .danhgia i {
+.khoidichvu a.mottinnho .danhgia i, .khoidct a.mottinnho .danhgia i {
     font-size: 13px;
     FONT-WEIGHT: 600;
     font-style: normal;
@@ -286,7 +383,7 @@ span.page-numbers.current, .page-numbers:hover {
     float: right;
 }
 
-.khoidichvu h2 {
+.khoidichvu h2, .khoidvct h2 {
     background: #222;
     color: white;
     font-size: 14px;
