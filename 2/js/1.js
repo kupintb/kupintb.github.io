@@ -1,11 +1,8 @@
 ﻿ $(function(){
  	/*Hiệu ứng Wow*/
  	new WOW().init();
- 	$('#dg-container').gallery({
- 		autoplay	:	true,
- 		current		: 1,	
-
- 	});
+ 	
+ 	
  	
 			$('.slidebottom.owl-carousel.owl-theme').owlCarousel({
 		    loop:true,
