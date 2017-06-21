@@ -2,6 +2,22 @@
 @media (max-width: 767px){
     *{}
 
+.khoidvct .col-sm-3 {
+    padding: 0;
+}
+
+.widget.tinganday {
+    margin-bottom: 20px;
+}
+
+.khoifancybox {
+    display: block!important;
+}
+
+.dg-container {
+    display: none;
+}
+
 .sodem span.plus {
     margin-left: 2px;
     top: 0px;
@@ -192,6 +208,14 @@ a.oneiconaction.iconsearch, .oneiconaction.iconuser, .oneiconaction.iconwishlist
 @media (min-width: 768px) and (max-width: 991px){
     *{}
 
+.khoifancybox {
+    display: block!important;
+}
+
+.dg-container {
+    display: none;
+}
+
 .khoidichvu .services p {
     font-size: 14px;
 }
@@ -287,6 +311,14 @@ span.baicon {
 /* MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â n hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬nh destop nho */
 @media (min-width: 992px) and (max-width: 1199px){
     *{}
+
+.khoifancybox {
+    display: block!important;
+}
+
+.dg-container {
+    display: none;
+}
 
 .khoidichvu .mottinnho span {
     font-size: 12px;

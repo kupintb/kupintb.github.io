@@ -8,6 +8,8 @@
  	<script type="text/javascript" src="js/about.js"></script>
  	<script type="text/javascript" src="js/jquery.gallery.js"></script>
  	<script type="text/javascript" src="js/ctdv.js"></script>
+ 	<script type="text/javascript" src="js/slick.min.js"></script>
+ 	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
  	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
  	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
  	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
@@ -15,7 +17,9 @@
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="css/1.css">
+ 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
  	<link rel="stylesheet" href="css/about.css">
+ 	<link rel="stylesheet" href="css/slick.css">
  	<link rel="stylesheet" href="css/responsive.css">
  	<link rel="stylesheet" href="css/owl.carousel.min.css">
  	<link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -63,20 +67,20 @@
 						<li class="list-group-item"><a href="about.html">Giới thiệu</a></li>
 						<li class="list-group-item dropdown"><a href="dichvu.html">Dịch vụ <i class="fa fa-angle-down"></i></a>
 							<ul class="dropdown1">
-								<li class="list-group-item"><a class="dropdown-content" href="">Chăm sóc & phục hồi da sức sống</a></li>
-								<li class="list-group-item"><a href="">Body thư giãn <i class="fa fa-angle-down"></i></a>
+								<li class="list-group-item"><a class="dropdown-content" href="dichvu.html">Chăm sóc & phục hồi da sức sống</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Body thư giãn <i class="fa fa-angle-down"></i></a>
 									<ul class="dropdown2">
-										<li><a href="">Body đá</a></li>
-										<li><a href="">Body tinh dầu</a></li>
+										<li><a href="dichvu-single.html">Body đá</a></li>
+										<li><a href="dichvu-single.html">Body tinh dầu</a></li>
 									</ul>
 								</li>
-								<li class="list-group-item"><a  href="">Nâng cơ trẻ hóa chống nhăn</a></li>
-								<li class="list-group-item"><a href="">Liệu trình điều trị vấn đề về da</a></li>
-								<li class="list-group-item"><a href="">Cấy collagen tươi & cấy noãn nám</a></li>
-								<li class="list-group-item"><a href="">Tắm trắng toàn thân thảo dược</a></li>
-								<li class="list-group-item"><a href="">Phun thêu thẩm mỹ</a></li>
-								<li class="list-group-item"><a href="">Triệt lông vĩnh viễn</a></li>
-								<li class="list-group-item"><a href="">Lazer điều trị nám</a></li>
+								<li class="list-group-item"><a  href="dichvu.html">Nâng cơ trẻ hóa chống nhăn</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Liệu trình điều trị vấn đề về da</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Cấy collagen tươi & cấy noãn nám</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Tắm trắng toàn thân thảo dược</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Phun thêu thẩm mỹ</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Triệt lông vĩnh viễn</a></li>
+								<li class="list-group-item"><a href="dichvu.html">Lazer điều trị nám</a></li>
 							</ul>
 						</li>
 						<li class="list-group-item"><a href="tuyendung.html">Tuyển dụng</a></li>
@@ -133,7 +137,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-3">
-                <div class="widget wow bounceInRight" data-wow-delay="0.2s">
+                <div class="widget wow bounceInLeft" data-wow-delay="0.2s">
                     <h2 class="widget-title text-xs-center">Dịch vụ mới</h2>
                     <ul>
                         <li><a href="">Cắt tóc gội đầu <span class="so">(88)</span></a></li>
@@ -146,7 +150,7 @@
                     </ul>
                 </div>
                 
-                <div class="widget wow bounceInRight">
+                <div class="widget wow bounceInLeft">
                     <h2 class="widget-title  text-xs-center">Danh Mục tin</h2>
                     <ul>
                         <li><a href="">Tin trong ngày <span class="so">(05)</span></a></li>
@@ -154,7 +158,7 @@
                         <li><a href="">Tin linh tinh <span class="so">(05)</span></a></li>
                     </ul>
                 </div>
-                <div class="widget tinganday wow bounceInRight">
+                <div class="widget tinganday wow bounceInLeft">
                     <h2 class="widget-title  text-xs-center">Tin gần đây</h2>
                     <a href="" class="mottinnho">
                         <div class="row">
@@ -193,11 +197,11 @@
             </div>
             <div class="col-sm-9">
             	<div class="mottinchuan tinchitiet">
-                    <div class="baiviet wow bounceInLeft">
-                        <div class="anhbaiviet">
+                    <div class="baiviet">
+                        <div class="anhbaiviet wow bounceInRight">
                             <a href=""><img src="images/16.jpeg" alt="" class="img-fluid"></a>
                         </div>
-                        <div class="ttbaiviet">
+                        <div class="ttbaiviet wow bounceInRight">
                             <div class="tttop">
                                 <span >
                                     <span>by <span class="nguoidang">admin</span></span>
@@ -223,18 +227,18 @@
                     </div>  
                 </div>
                 <div class="khoigallery">
-                	<h3 class="tdnho">Phản hồi khách hàng</h3>
-                	<section id="dg-container" class="dg-container">
+                	<h3 class="tdnho wow bounceInRight">Phản hồi khách hàng</h3>
+                	<section id="dg-container" class="dg-container wow zoomIn">
 						<div class="dg-wrapper">
-							<a href="#"><img src="images/11.jpg" alt="image01" class="img-fluid"></a>
-							<a href="#"><img src="images/12.jpeg" alt="image02" class="img-fluid"></a>
-							<a href="#"><img src="images/13.jpeg" alt="image03" class="img-fluid"></a>
-							<a href="#"><img src="images/14.jpeg" alt="image04" class="img-fluid"></a>
-							<a href="#"><img src="images/15.jpeg" alt="image05" class="img-fluid"></a>
-							<a href="#"><img src="images/16.jpeg" alt="image06" class="img-fluid"></a>
-							<a href="#"><img src="images/17.jpeg" alt="image07" class="img-fluid"></a>
-							<a href="#"><img src="images/19.jpeg" alt="image09" class="img-fluid"></a>
-							<a href="#"><img src="images/20.jpeg" alt="image10" class="img-fluid"></a>
+							<a href="images/11.jpg" data-fancybox="anhphkh"><img src="images/11.jpg" alt="image01" class="img-fluid"></a>
+							<a href="images/12.jpeg" data-fancybox="anhphkh"><img src="images/12.jpeg" alt="image02" class="img-fluid"></a>
+							<a href="images/13.jpeg" data-fancybox="anhphkh"><img src="images/13.jpeg" alt="image03" class="img-fluid"></a>
+							<a href="images/14.jpeg" data-fancybox="anhphkh"><img src="images/14.jpeg" alt="image04" class="img-fluid"></a>
+							<a href="images/15.jpeg" data-fancybox="anhphkh"><img src="images/15.jpeg" alt="image05" class="img-fluid"></a>
+							<a href="images/16.jpeg" data-fancybox="anhphkh"><img src="images/16.jpeg" alt="image06" class="img-fluid"></a>
+							<a href="images/17.jpeg" data-fancybox="anhphkh"><img src="images/17.jpeg" alt="image07" class="img-fluid"></a>
+							<a href="images/19.jpeg" data-fancybox="anhphkh"><img src="images/19.jpeg" alt="image09" class="img-fluid"></a>
+							<a href="images/20.jpeg" data-fancybox="anhphkh"><img src="images/20.jpeg" alt="image10" class="img-fluid"></a>
 							
 						</div>
 						<nav>	
@@ -242,7 +246,18 @@
 							<span class="dg-next">&gt;</span>
 						</nav>
 					</section>
+					<div class="khoifancybox">
+	                	<a href="images/11.jpg" data-fancybox="anhphkh"><img src="images/11.jpg" alt="image01" class="img-fluid"></a>
+						<a href="images/13.jpeg" data-fancybox="anhphkh"><img src="images/13.jpeg" alt="image03" class="img-fluid"></a>
+						<a href="images/14.jpeg" data-fancybox="anhphkh"><img src="images/14.jpeg" alt="image04" class="img-fluid"></a>
+						<a href="images/15.jpeg" data-fancybox="anhphkh"><img src="images/15.jpeg" alt="image05" class="img-fluid"></a>
+						<a href="images/16.jpeg" data-fancybox="anhphkh"><img src="images/16.jpeg" alt="image06" class="img-fluid"></a>
+						<a href="images/17.jpeg" data-fancybox="anhphkh"><img src="images/17.jpeg" alt="image07" class="img-fluid"></a>
+						<a href="images/19.jpeg" data-fancybox="anhphkh"><img src="images/19.jpeg" alt="image09" class="img-fluid"></a>
+						<a href="images/20.jpeg" data-fancybox="anhphkh"><img src="images/20.jpeg" alt="image10" class="img-fluid"></a>
+              	 	</div>
                 </div>
+                
             </div>
 		</div>
 	</div>

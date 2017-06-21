@@ -1,5 +1,9 @@
 *{margin: 0;padding: 0;}
 
+.khoifancybox {
+    display: none!important;
+}
+
 .khoidvct nav .dg-next {
     background-position: top right;
     margin-left: 10px;
