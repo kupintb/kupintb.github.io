@@ -1,6 +1,8 @@
 ﻿$(function(){
 	$(".share_item,span.social_share_item_wrapper").hover(function(){
+        $(this).toggleClass('bluestar');
         $(this).nextUntil().toggleClass('bluestar');
+        $(this).prevUntil().toggleClass('bluestar');
     });
     $(".icon_search_header,.form_search_header").hover(function(){
     	$(".header_search").toggleClass("form_search");
