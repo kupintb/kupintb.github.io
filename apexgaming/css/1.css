@@ -70,6 +70,7 @@ i.fa.fa-search.icon_search_sidebar input {
     -moz-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     display: none;
+    z-index: 999;
 }
 
 .site_main_home {
