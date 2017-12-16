@@ -1,8 +1,146 @@
 @media (max-width: 767px) {
 	*{}
+
+.site_side {
+    width:  80%;
+    right:  -80%;
+}
+
+body.home.opened_body_home .site_main_home {
+    -moz-transform: translate(-80%);
+    -webkit-transform: translate(-80%);
+    transform: translate(-80%);
+}
+
+.menu_top_header_1 a.navbar-brand {
+    font-size: 18px;
+}
+
+.header_search {
+    border: 1px solid #F5F5F5;
+    border-radius: 30px;
+    padding:  0;
+    margin-left:  0;
+    margin-top: 25px;
+}
+
+.header_search form input.form-control {
+    width: 87%;
+}
+
+.social_icon_list {
+    margin-top: 20px;
+    text-align:  center;
+}
+
+div#navbarSupportedContent {
+    padding: 0px  20px;
+}
+
+.menu_top_header_1 {
+    width:  100%;
+    border: 2px solid #F2F2F2;
+    padding: 0 20px;
+    border-radius: 25px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+section#content {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+article.blog_post_container {
+    margin-bottom: 25px;
+}
+
+.blog_post {
+    padding-bottom: 30px;
+}
+
+.blog_post_control_item.blog_post_control_readmore {
+    width:  100%;
+    margin-bottom:  25px;
+}
+
+.menu_top nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+}
+
+.navbar-light .navbar-toggler {
+    float: right;
+    border:  none;
+}
+
+.menu_top {
+    border-bottom: 1px solid transparent;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	*{}
+	.menu_top_header_1 a.navbar-brand {
+    font-size: 18px;
+}
+
+.header_search {
+    border: 1px solid #F5F5F5;
+    border-radius: 30px;
+    padding:  0;
+    margin-left:  0;
+    margin-top: 25px;
+}
+
+.header_search form input.form-control {
+    width: 87%;
+}
+
+.social_icon_list {
+    margin-top: 20px;
+    text-align:  center;
+}
+
+div#navbarSupportedContent {
+    padding: 0px  20px;
+}
+
+.menu_top_header_1 {
+    width:  100%;
+    border: 2px solid #F2F2F2;
+    padding: 0 20px;
+    border-radius: 25px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+section#content {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+article.blog_post_container {
+    margin-bottom: 25px;
+}
+
+.blog_post {
+    padding-bottom: 30px;
+}
+
+.blog_post_control_item.blog_post_control_readmore {
+    width:  100%;
+    margin-bottom:  25px;
+}
+
+.menu_top nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+}
+
+.navbar-light .navbar-toggler {
+    float: right;
+    border:  none;
+}
+
+.menu_top {
+    border-bottom: 1px solid transparent;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	*{}
