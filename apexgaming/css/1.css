@@ -20,7 +20,7 @@ li.post_item {
     border-radius: 50%;
 }
 
-div#about_widget {
+.info_sidebar div#about_widget {
     margin-top: 30px;
 }
 
@@ -434,7 +434,7 @@ a.social_share_item_tw:hover {
 
 section#content {
     clear: both;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
     margin-bottom: 40px;
 }

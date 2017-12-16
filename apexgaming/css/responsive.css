@@ -1,5 +1,5 @@
 @media (max-width: 767px) {
-	*{}
+    *{}
 
 .site_side {
     width:  80%;
@@ -26,6 +26,10 @@ body.home.opened_body_home .site_main_home {
 
 .header_search form input.form-control {
     width: 87%;
+}
+
+.header_search.form_search form input.form-control {
+    width:  87%;
 }
 
 .social_icon_list {
@@ -77,8 +81,8 @@ article.blog_post_container {
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	*{}
-	.menu_top_header_1 a.navbar-brand {
+    *{}
+    .menu_top_header_1 a.navbar-brand {
     font-size: 18px;
 }
 
@@ -143,10 +147,10 @@ article.blog_post_container {
 }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-	*{}
+    *{}
 }
 @media (min-width: 1200px) {
-	*{}
+    *{}
 
 .container {
     width: 910px;
