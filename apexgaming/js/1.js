@@ -1,4 +1,7 @@
 ﻿$(function(){
+    $(".loading").delay(2000).fadeOut(300, function() {
+        
+    });
 	$(".share_item,span.social_share_item_wrapper").hover(function(){
         $(this).toggleClass('bluestar');
         $(this).nextUntil().toggleClass('bluestar');
@@ -21,9 +24,6 @@
         return false;
         }
     });
-    $('.numbers').counterUp({
-        /*delay: 5,*/
-        time: 5000
-    });
+   
 })  
  
