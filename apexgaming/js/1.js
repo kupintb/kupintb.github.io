@@ -1,5 +1,5 @@
 ﻿$(function(){
-    $(".loading").delay(2000).fadeOut(300, function() {
+    $(".loading").fadeOut(300, function() {
         
     });
 	$(".share_item,span.social_share_item_wrapper").hover(function(){

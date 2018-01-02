@@ -1,5 +1,30 @@
 *{margin: 0; padding: 0;}
 
+.author_text {
+    margin-top: 20px;
+}
+
+.anime_logo_apex {
+    position:  absolute;
+    top: 0;
+    left:  0;
+    width:  100%;
+    height:  100%;
+}
+
+.anime_logo {
+    position:  relative;
+}
+
+/* css hiá»‡u á»©ng anime logo */
+.anime_logo_apex svg{
+    stroke:#0000c0;
+    fill: none;
+}
+.anime_logo_apex svg .vienlogo{
+    stroke-width:4px;
+}
+
 .object {
     width:  20px;
     height:  20px;
@@ -429,7 +454,8 @@ body.home.opened_body_home .site_main_home {
 
 .author_img_footer img {
     border-radius: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    opacity: 0;
 }
 
 h2.post_title {
