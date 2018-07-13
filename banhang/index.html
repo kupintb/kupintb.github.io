@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" dir="ltr">
+<!--<![endif]-->
+<head>
+	<title> Tùng Duy - Website designer </title>
+	<meta charset="utf-8">	
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+	<link rel="stylesheet" href="vendor/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendor/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/1.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/dreaft-countdown.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/ionicons.css">
+	<link rel="stylesheet" href="css/helper.css">
+	<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+	<!-- Font Open Sans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese" rel="stylesheet">
+	<!-- font-family: 'Open Sans', sans-serif; -->
+	<!-- Font Roboto Slab -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;subset=vietnamese" rel="stylesheet">
+	<!-- font-family: 'Roboto Slab', serif; -->
+	<!-- Font Merriweather -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	<!-- font-family: 'Merriweather', serif; -->
+
+</head>
+<body class="home_page">
+	<div class="overlay" style="background-color: rgb(0, 0, 0); position: fixed; top: 0px; right: 0px; bottom: 0px; left: 0px; opacity: 0.7; z-index: 9998; cursor: pointer;"></div>
+	<div class="newletter-popup">
+		<div id="boxes" class="newletter-container">
+			<div id="dialog" class="window">
+				<div id="popup2">
+					<span class="b-close"><span>Đóng</span></span>
+				</div>
+				<div class="box">
+					<div class="newletter-title"><h2>Newsletter</h2></div>
+					<div class="box-content newleter-content">
+						<label>Đăng ký nhận thông tin của chúng tôi ngay bây giờ, tin tức luôn được cập nhật với bộ sưu tập mới và nhận được những phần quà hấp dẫn.</label>
+						<div id="frm_subscribe">
+							<form name="subscribe" id="subscribe_popup">
+								<div>
+									<!-- <span class="required">*</span><span>Enter you email address here...</span>-->
+									<input type="text" value="" name="subscribe_pemail" id="subscribe_pemail" placeholder="Nhập Email của bạn vào đây..."> 
+									<input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
+									<div id="notification"></div>
+									<a class="button" onclick="email_subscribepopup()"><span>Đăng ký</span></a>
+
+								</div>
+							</form>
+							<div class="subscribe-bottom">
+								<input type="checkbox" id="newsletter_popup_dont_show_again">
+								<label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
+							</div>
+						</div><!-- /#frm_subscribe -->
+					</div><!-- /.box-content -->
+				</div>
+			</div>	
+		</div><!-- /.box -->
+	</div>
+	<div id="page">
+		<div id="site_main_home">
+			<section id="site_section_top">
+				<nav class="info_nav_top">
+					<div class="container">
+						<div class="container-inner clearfix">
+							<ul class="ul_info_nav_top info_nav_top_left">
+								<li class="shipping"><span>Free Shipping on Orders $50+</span></li>
+							</ul>
+							<ul class="ul_info_nav_top info_nav_top_right">
+								<li class="setting">
+									<div class="btn-group">
+										<button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">My Account</button>
+										<div class="dropdown-menu dropdown-menu-right" id="top-links">
+											<ul class="ul_account list_different">
+												<li class="li_account"><a href="" class="a_register_link">Register</a></li>
+												<li class="li_account"><a href="" class="a_login_link">Login</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="currency">
+									<form action="" method="" enctype="" id="form_currency">
+										<div class="btn-group">
+											<button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">USD</button>
+											<div class="dropdown-menu">
+												<ul class="ul_dropdown_currency list_different">
+													<li><button class="btn btn-link btn-block currency_select" type="button">€ Euro </button></li>
+													<li><button class="btn btn-link btn-block currency_select" type="button">VND đ </button></li>
+													<li><button class="btn btn-link btn-block currency_select" type="button">USD $ </button></li>
+												</ul>
+											</div>
+										</div>
+										<input type="hidden">
+									</form>
+								</li>
+								<li class="language">
+									<form action="" id="form-language">
+										<div class="btn-group">
+											<button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Tiếng Việt</button>
+											<div class="dropdown-menu">
+												<ul class="ul_language list_different">
+													<li><button class="btn btn-link btn-block language_select"> English</button></li>
+													<li><button class="btn btn-link btn-block language_select"> Tiếng Việt</button></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<header id="site_header">
+					<div class="header-inner">
+						<div class="content_header_top">
+							<div class="container">
+								<div class="container-inner_top">
+									<div class="logo-container">
+										<div class="logo-container-inner">
+											<h1>Apex Gaming</h1>
+											<a href="index.html" title="Apex Gaming địa chỉ 64 sông nhuệ">
+												<img src="images/logo.png" title="Apex Gaming địa chỉ 64 sông nhuệ" alt="ApexGaming" class="img-fluid">
+											</a>
+										</div>
+									</div>
+									<div class="box_header_top box_phone">
+										<span><i class="fa fa-phone"></i> Call Us: <span>+84.988.705.693</span></span>
+									</div>
+									<div class="box_header_top box-cart">
+										<div id="cart" class="btn-group btn-block">
+											<button class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+												<i class="fa fa-shopping-bag"></i>
+												<span class="mycart">
+													<span id="cart_total">0</span>
+													<span> item(s) - </span>
+													<span class="total_price">0.00</span>
+												</span>
+											</button>
+											<ul class="dropdown-menu pull-right">
+												<li>
+													<p class="text-center cart-empty">Your shopping cart is <empty!></empty!></p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<div class="top_menu">
+							<div class="container">
+								<nav class="navbar navbar-expand-lg navbar-light bg-light">
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+
+									<div class="collapse navbar-collapse" id="navbarSupportedContent">
+										<ul class="navbar-nav mr-auto">
+											<li class="nav-item active">
+												<a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#"><span data-hover="Giới thiệu">Giới thiệu</span></a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="shop.html"><span data-hover="Sản phẩm">Sản phẩm</span></a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="shop.html"><span data-hover="Tin tức">Tin tức</span></a>
+											</li>
+											
+											<li class="nav-item">
+												<a class="nav-link" href="#"><span data-hover="Liên hệ">Liên hệ</span></a>
+											</li>
+											
+										</ul>
+										<div class="search_menu_top">
+											<div class="btn-group icon">
+												<div class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+													<i class="fa fa-search"></i>
+												</div>
+												<div class="dropdown-menu search_content_top">
+													<form class="form-inline my-2 my-lg-0">
+														<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+														<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+													</form>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+			</section>
+			<section id="main_content_section">
+				<div class="container">
+					<main id="main_content">
+						<marquee behavior="" direction="left">
+							Shop giao hàng toàn quốc từ 3-5 ngày . Thanh toán khi nhận hàng
+						</marquee>
+						<div id="slider_home_page">
+							<div class="slider-wrapper theme-default">
+								<div id="slider" class="nivoSlider"> 
+									<img src="images/toystory.jpg" data-thumb="demo/images/toystory.jpg" title="#banner7-caption1"  alt="" /> 
+									<img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="#banner7-caption2" />
+									<img src="images/walle.jpg" data-thumb="demo/images/walle.jpg" alt="" title="#banner7-caption3"  data-transition="slideInLeft" />
+								</div>
+								<!-- <div id="htmlcaption" class="nivo-html-caption"> 
+									<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+								</div> -->
+
+								<div id="banner7-caption1" class="banner7-caption nivo-html-caption nivo-caption move-slides-effect" data-class="slide-movetype1">
+									<div class="timeloading"></div>
+									<div class=" banner7-content slider-1">
+										<div class="container" style="height:100%;">
+											<div class="container-inner" style="height: 100%;position: relative;">
+												<div class="text-content">							
+													<h1 class="title1">Sale 20% Off Coffee Machine </h1>
+
+													<h2 class="sub-title">Freshly ground coffee beans for real coffee lovers</h2>
+
+													<div class="banner7-des">
+														<p></p>
+													</div>
+													<div class="banner7-readmore">
+														<a class="btn" href="#" title="shop now">shop now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div id="banner7-caption2" class="banner7-caption nivo-html-caption nivo-caption move-slides-effect" data-class="slide-movetype2">
+									<div class="timeloading"></div>
+									<div class=" banner7-content slider-2">
+										<div class="container" style="height:100%;">
+											<div class="container-inner" style="height: 100%;position: relative;">
+												<div class="text-content">							
+													<h1 class="title1">for a maximum Espresso tatste</h1>
+
+													<h2 class="sub-title">The Maximatic is the perfect semi-automatic espresso machine</h2>
+
+													<div class="banner7-des">
+														<p></p>
+													</div>
+													<div class="banner7-readmore">
+														<a class="btn" href="#" title="shop now">shop now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="banner7-caption3" class="banner7-caption nivo-html-caption nivo-caption move-slides-effect" data-class="slide-movetype2">
+									<div class="timeloading"></div>
+									<div class=" banner7-content slider-3">
+										<div class="container" style="height:100%;">
+											<div class="container-inner" style="height: 100%;position: relative;">
+												<div class="text-content">							
+													<h1 class="title1">for a maximum Espresso tatste</h1>
+
+													<h2 class="sub-title">The Maximatic is the perfect semi-automatic espresso machine</h2>
+
+													<div class="banner7-des">
+														<p></p>
+													</div>
+													<div class="banner7-readmore">
+														<a class="btn" href="#" title="shop now">shop now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="description_about_us_home">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="img_about_us_home">
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="images_about images_about1">
+													<a href=""><img src="images/img1-static-aboutus.jpg" alt="" class="img-fluid"></a>
+												</div>
+												<div class="images_about images_about2">
+													<a href=""><img src="images/img2-static-aboutus.jpg" alt="" class="img-fluid"></a>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="images_about images_about3">
+													<a href=""><img src="images/img3-static-aboutus.jpg" alt="" class="img-fluid"></a>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="content_about_us_home">
+										<h3 class="title title_about_us_home">About our Apex Gaming</h3>
+										<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore dolorem vero ad dolores fuga laboriosam incidunt, nesciunt quas, eius esse sunt rem alias vitae! Perferendis laudantium provident, et fugit voluptatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore dolorem vero ad dolores fuga laboriosam incidunt, nesciunt quas, eius esse sunt rem alias vitae! Perferendis laudantium provident, et fugit voluptatibus.</p>
+										<button class="btn btn-outline-warning btn-effects">read more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="corporate_about">
+							<div class="row">
+								<div class="col-sm-6 col-lg-3">
+									<div class="block-wrapper wrapper1">
+										<div class="text-des">
+											<img src="images/icon1.png" alt="" class="img-fluid">
+											<h4>Free ship nội thành Hà nội</h4>
+											<p>GIẢM 30% CHO SINH VIÊN</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-3">
+									<div class="block-wrapper wrapper2">
+										<div class="text-des">
+											<img src="images/wrapper2.png" alt="" class="img-fluid">
+											<h4>QUAY LẠI & TRAO ĐỔI</h4>
+											<p>Cam kết trả lại tiền trong 30 ngày</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-3">
+									<div class="block-wrapper wrapper3">
+										<div class="text-des">
+											<img src="images/icon2.png" alt="" class="img-fluid">
+											<h4>NHẬN THẺ QUÀ TẶNG</h4>
+											<p>Nhận quà tặng trên toàn bộ đơn đặt hàng $ 50</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-3">
+									<div class="block-wrapper wrapper4">
+										<div class="text-des">
+											<img src="images/icon3.png" alt="" class="img-fluid">
+											<h4>HỖ TRỢ TRỰC TUYẾN 24/7</h4>
+											<p>Nhận 24/7 hỗ trợ trực tuyến luôn sẵn sàng</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="site_main_content">
+							<div class="row">
+								<div class="col-lg-3">
+									<nav class="category_module">
+										<h3 class="title-h3">Categories</h3>
+										<ul class="ul_category_module">
+											<li class="li_category_module"><a href="">Accessories <span>(8)</span></a></li>
+											<li class="li_category_module"><a href="">Coffee & Espresso Machine <span>(2)</span></a></li>
+											<li class="li_category_module"><a href="">Coffee derivatives <span>(7)</span></a></li>
+											<li class="li_category_module"><a href="">Coffee drinks‎ <span>(7)</span></a></li>
+											<li class="li_category_module"><a href="">Coffee Urns <span>(4)</span></a></li>
+											<li class="li_category_module"><a href="">Drip Coffee Makers <span>(8)</span></a></li>
+											<li class="li_category_module"><a href="">Shop <span>(16)</span></a></li>
+											<li class="li_category_module"><a href="">Super-Automatic Espresso <span>(3)</span></a></li>
+										</ul>
+									</nav>
+									<div class="banner_static text-center">
+										<a href=""><img src="images/img-sidebar.jpg" alt="" class="img-fluid"></a>
+									</div>
+									<div class="product_module module_nav2">
+										<div class="module_title"><h2 class="title-h2">Special Products</h2></div>
+										<div class="owl-container">
+											<div class="tt-product owl-carousel owl-theme">
+												<div class="row-item"> <!-- Start-row-tiem -->
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/10-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/1-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/4-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/5-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+												</div><!-- End-row-tiem -->
+												<div class="row-item"> <!-- Start-row-tiem -->
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/6-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/13-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/18-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="item">
+														<div class="item-inner">
+															<div class="images-container">
+																<a href=""><img src="images/19-600x720.jpg" alt="" class="img-fluid"></a>
+															</div>
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+												</div> <!-- End-row-tiem -->
+
+											</div>
+										</div>
+									</div>
+									<!-- <div class="testimonial_container module_nav2">
+										<div class="module_title"><h2 class="title-h2">Testimonials</h2></div>
+										<div class="block_content">
+											<div class="owl-container">
+												<div class="slides">
+													<div class="row-item">
+														<div class="testimonial-content">
+															<div class="testimonial-images">
+																<img src="images/testtimor-130x130.png" alt="Rebecka Filson">							
+															</div>
+															<div class="testimonial-box">							
+																<a href=""> This is Photoshops version  of Lorem Ipsum. Proin gravida nibh vel velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie augue magna. Pellentesque felis lorem, pulvinar sed eros ..</a>
+															</div>
+															<h4 class="testimonial-author">- Rebecka Filson.</h4>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div> -->
+								</div>
+								<div class="col-lg-9">
+									<div class="tabsproduct">
+										<div class="module-title">
+											<h2 class="title-h2">product tabs</h2>
+										</div>
+										<div class="tapsproduct-inner">
+											<ul class="tab-heading tabs-categorys clearfix">
+												<li class="li-tabs active"><a href="" class="a-tabs"><span class="tab-name">Featured</span></a></li>
+												<li class="li-tabs"><a href="" class="a-tabs"><span class="tab-name">new arrivals</span></a></li>
+												<li class="li-tabs"><a href="" class="a-tabs"><span class="tab-name">Best seller</span></a></li>
+											</ul>
+										</div>
+										<div class="content-tabsproduct">
+											<ul class="tab-content">
+												<li class="li-tab-content open">
+													<!-- start owl sider product -->
+
+													<div class="taps-product">
+														<div class="slide-product-tap owl-carousel owl-theme">
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															
+															
+
+														</div>
+													</div>
+													<!-- End owl sider product -->
+												</li>
+												<li class="li-tab-content">
+													<div class="taps-product">
+														<div class="slide-product-tap owl-carousel owl-theme">
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															
+														</div>
+													</div>
+													<!-- End owl sider product -->
+												</li>
+												<li class="li-tab-content">
+													<div class="taps-product">
+														<div class="slide-product-tap owl-carousel owl-theme">
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product sold-out">
+																				<a href="">Tạm hết hàng <i class="fa fa-long-arrow-right"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															<!-- start product -->
+															<div class="item">
+																<div class="item-inner">
+																	<div class="images-container">
+																		<div class="info-img">
+																			<div class="info-image-1">
+																				<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-image-2">
+																				<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																			</div>
+																			<div class="info-icon-product add-to-cart">
+																				<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="new-sale">
+																		<span class="span-new-sale new">new</span>
+																		<span class="span-new-sale sale">sale</span>
+																	</div>
+																	<div class="caption">
+																		<h4 class="product-name"><a href="">Baronet Coffee Fair</a></h4>
+
+																		<div class="price-box">
+																			<label>Price:</label>
+																			<p class="special-price"><span class="price">$65.00</span></p>
+																			<p class="old-price"><span class="price">$70.00</span></p>
+																		</div>
+																		<div class="ratings">
+																			<div class="rating-box">
+																				<div class="rating5">rating</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- end product -->
+															
+														</div>
+													</div>
+													<!-- End owl sider product -->
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="banner-main-home">
+												<a href=""><img src="images/banner-sale.png" alt="" class="img-fluid"></a>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="banner-main-home">
+												<a href=""><img src="images/banner-sale.png" alt="" class="img-fluid"></a>
+											</div>
+										</div>
+									</div>
+									<div class="main-hot-deals">
+										<div class="hot-deals">
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="inner-hot-deals">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="images-container">
+															<div class="info-img">
+																<div class="info-image-1">
+																	<img src="images/10-600x720.jpg" alt="" class="img-fluid">
+																</div>
+																<div class="info-image-2">
+																	<img src="images/1-600x720.jpg" alt="" class="img-fluid">
+																</div>
+
+															</div>
+															<div class="new-sale">
+																<span class="span-new-sale sale">sale</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="content-hot-deals text-center">
+															<div class="caption">
+																<h4 class="product-name"><a href="">Baronet Coffee Fair 1</a></h4>
+
+																<div class="price-box">
+																	<label>Price:</label>
+																	<p class="special-price"><span class="price">$65.00</span></p>
+																	<p class="old-price"><span class="price">$70.00</span></p>
+																</div>
+																<div class="ratings">
+																	<div class="rating-box">
+																		<div class="rating5">rating</div>
+																	</div>
+																</div>
+															</div>
+															<div class="description-hot-deals">
+																Our favorite drip coffee maker, the Bonavita BV1900TS has brewi
+															</div>
+															<div class="info-icon-product add-to-cart cart-hot-deals">
+																<a href="">Thêm giỏ hàng <i class="fa fa-cart-plus"></i></a>
+															</div>
+															<div class="countdown-hot-deals">
+																<div class="title-countdown">
+																	<h6>hurry up!</h6>
+																</div>
+																<div class="desciption-countdown">
+																	<h6>offer end in</h6>
+																</div>
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+										<div class="hot-deals-nav">
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+											<div class="inner-nav-hot-deals">
+												<img src="http://placehold.it/400x300" alt="" class="img-fluid img-hot-deals-nav">
+											</div>
+
+										</div>
+									</div>
+									<div class="blog-home">
+										<div class="module_title">
+											<h2 class="title-h2">Blog home</h2>
+										</div>
+										<div class="main-blog-home">
+											<div class="row">
+												<div class="col-sm-5">
+													<div class="img-blog-home">
+														<img src="images/lg-b-blog-5.jpg" alt="" class="img-fluid img-thumbnail">
+													</div>
+												</div>
+												<div class="col-sm-7">
+													<div class="content-blog-home">
+
+														<h4 class="product-name"><a href="" tabindex="0">Baronet Coffee Fair 1</a></h4>
+														<div class="meta-date">
+															<div class="post-date">
+																<div class="post-date-inner">
+																	<span class="day">10</span> <span class="month">Mar</span> <span class="year">2015</span>
+																</div>
+															</div>
+															<div class="post-meta">
+																<span class="post-author"><a href="http://demo.roadthemes.com/caden/author/admin/">admin</a>
+																</span>
+																<span class="post-slash"> | </span>
+																<span class="post-comment"><span>3</span> comments</span>
+															</div>
+														</div>
+														<div class="post-excerpt"><p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Praesent</p>
+														</div>
+														<button class="btn btn-outline-warning btn-effects">read more</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</section>
+			<footer class="site-footer">
+				<div class="footer-top">
+					<div class="container">
+						<div class="footer_wrapper">
+							<div class="footer-ribbon">Get in touch</div>
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="footer-column footer-column-left">
+										<div class="footer-contact-us">
+											<h6 class="title-h6">contact us</h6>
+											<ul class="list-unstyled" style="display: block;">
+												<li class="address">
+													<i class="fa fa-map-marker"></i><span class="contact-address">My Company, 42 Puffin street 12345 Puffinville France</span>
+												</li>
+												<li class="contact">
+													<i class="fa fa-phone"></i><span class="phone">0123-456-789</span>
+												</li>
+												<li class="email">
+													<i class="fa fa-envelope-o"></i><span class="email-address"><a href="mailto:daoduytung9x@gmai.com">daoduytung9x@gmai.com</a></span>
+												</li>
+												<li class="times">
+													<i class="fa fa-clock"></i><span class="contact-address">Thời gian làm việc: T2 – T7 Từ 8h00 – 17h00</span>
+												</li>
+											</ul>
+
+										</div>
+										<div class="html-content">
+											<div class="iconsocial">
+												<a href="#" class="oneiconsocial fb"><i class="fa fa-facebook"></i></a>
+												<a href="#" class="oneiconsocial tw"><i class="fa fa-twitter"></i></a>
+												<a href="#" class="oneiconsocial gg"><i class="fa fa-google-plus"></i></a>
+												<a href="#" class="oneiconsocial pp"><i class="fa fa-pinterest-p"></i></a>
+												<a href="#" class="oneiconsocial instagram"><i class="fa fa-instagram"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="footer-column-center">
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="logo-footer text-center">
+													<a href=""><img src="images/footer-logo.png" alt="" class="img-fluid"></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col-sm-4 footer-column">
+												<div class="footer-extras">
+													<h6 class="title-h6">Extras</h6>
+													<ul class="list-unstyled" style="display: block;">
+														<li><a href="">Brands</a></li>
+														<li><a href="">Gift Certificates</a></li>
+														<li><a href="">Affiliate</a></li>
+														<li><a href="">Specials</a></li>
+														<li><a href="">Site Map</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-sm-4 footer-column">
+												<div class="footer-my-account">
+													<h6 class="title-h6">My account</h6>
+													<ul class="list-unstyled" style="display: block;">
+														<li><a href="">My Account</a></li>
+														<li><a href="">Order History</a></li>
+														<li><a href="">Wish List</a></li>
+														<li><a href="">Newsletter</a></li>
+														<li><a href="">Returns</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-sm-4 footer-column">
+												<div class="footer-information">
+													<h6 class="title-h6">Extras</h6>
+													<ul class="list-unstyled" style="display: block;">
+														<li><a href="">About Us</a></li>
+														<li><a href="">Delivery Information</a></li>
+														<li><a href="">Privacy Policy</a></li>
+														<li><a href="">Terms &amp; Conditions</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="footer-column footer-column-right">
+										<div class="tags-footer">
+											<h6 class="title-h6">Tags</h6>
+											<div class="tagcloud">
+												<a href="">Quan</a>
+												<a href="">AO</a>
+												<a href="">Khan</a>
+												<a href="">Giay</a>
+												<a href="">Dep</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="coppy-right text-center">
+						© 2017 Tùng Duy Design, Apex Gaming. All Rights Reserved.
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="vendor/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/1.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	
+</body>
+</html>

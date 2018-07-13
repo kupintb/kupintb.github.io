@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0;}
+
+.title_shop_page {
+    margin: 50px;
+}
+
+.view-mode b {
+    cursor: pointer;
+}
+
+.shop_main {
+    margin: 30px 0px 50px 0px;
+}
+
+.product-list-inner > .row .col-sm-4 {
+    margin: 15px 0px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.info-breadcrumb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.breadcrumbs {
+    position: relative;
+}
